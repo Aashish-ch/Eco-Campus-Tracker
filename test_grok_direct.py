@@ -7,8 +7,8 @@ import json
 
 def test_grok_api_direct():
     """Test Grok API directly without Django"""
-    api_key = "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"
-    base_url = "https://api.x.ai/v1/chat/completions"
+    api_key = "YOUR_API_KEY"
+    base_url = "________"
     
     headers = {
         'Content-Type': 'application/json',
